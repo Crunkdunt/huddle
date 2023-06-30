@@ -18,3 +18,24 @@ body {
     background-color: hsl(0, 0%, 17%);
     color: hsl(0, 0, 100%);
 }
+
+img { //responsive image i think
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* | UTILITIES | */
+
+.offscreen { //hide elements off screen but in flow
+    position: absolute;
+    left: -10000px;
+}
+
+.nowrap { //stops text from wrapping
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
