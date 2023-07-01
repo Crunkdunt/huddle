@@ -1,3 +1,4 @@
+@use '../util' as u; 
 /* | RESETS | */
 
 html {
@@ -12,30 +13,34 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0%, 17%);
-    color: hsl(0, 0, 100%);
+	margin: 0;
+	padding: 0;
+	// font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--BACKGROUND-COLOR);
+	color: var(--P-COLOR);
 }
 
-img { //responsive image i think
-    display: block;
-    max-width: 100%;
-    height: auto;
+img {
+	//responsive image i think
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 /* | UTILITIES | */
 
-.offscreen { //hide elements off screen but in flow
-    position: absolute;
-    left: -10000px;
+.offscreen {
+	//hide elements off screen but in flow
+	position: absolute;
+	left: -10000px;
 }
 
-.nowrap { //stops text from wrapping
-    white-space: nowrap;
+.nowrap {
+	//stops text from wrapping
+	white-space: nowrap;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
+
