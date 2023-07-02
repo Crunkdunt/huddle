@@ -32,17 +32,19 @@
 		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 		<style>
 			.attribution {
+				background: hsl(192, 100%, 9%);
 				font-size: 11px;
+				margin-bottom: 0;
 				text-align: center;
 			}
 			.attribution a {
-				color: hsl(228, 45%, 44%);
+				color: hsl(0, 0%, 100%);
 			}
 		</style>
 	</head>
 	<body>
 		<div class="wrapper">
-			<section class="hero grid">
+			<section class="hero grid center">
 				<div class="hero__header flex --jc-sb --ai-c">
 					<img
 						src="./images/logo.svg"
@@ -76,8 +78,7 @@
 				</div>
 			</section>
 
-			<section class="cards grid">
-				
+			<section class="cards grid center">
 				<div class="cards__card grid">
 					<img
 						src="./images/illustration-grow-together.svg"
@@ -85,8 +86,11 @@
 					/>
 
 					<h2 class="cards__card__heading">Grow Together</h2>
-					<p class="cards__card_text">Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form.</p>
+					<p class="cards__card_text">
+						Generate meaningful discussions with your audience and build a
+						strong, loyal community. Think of the insightful conversations you
+						miss out on with a feedback form.
+					</p>
 				</div>
 
 				<div class="cards__card grid">
@@ -96,8 +100,11 @@
 					/>
 
 					<h2 class="cards__card__heading">Flowing Conversations</h2>
-					<p class="cards__card_text">  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow. </p>
+					<p class="cards__card_text">
+						You wouldn't paginate a conversation in real life, so why do it
+						online? Our threads have just-in-time loading for a more natural
+						flow.
+					</p>
 				</div>
 
 				<div class="cards__card grid">
@@ -107,50 +114,93 @@
 					/>
 
 					<h2 class="cards__card__heading">Your Users</h2>
-					<p class="cards__card_text"> It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.</p>
+					<p class="cards__card_text">
+						It takes no time at all to integrate Huddle with your app's
+						authentication solution. This means, once signed in to your app,
+						your users can start chatting immediately.
+					</p>
+				</div>
+
+				<div class="cards__card grid">
+					<h2 class="cards__card__heading--sm">
+						Ready To Build Your Community?
+					</h2>
+					<a href="/" class="btn cards__card__cta">Get Started For Free</a>
+				</div>
+			</section>
+
+			<section class="footer grid">
+				<img src="./images/logo_foot.svg" alt="" class="footer__logo" />
+
+				<div class="footer__contact grid">
+					<span class="footer_icon"
+						><i class="fa-solid fa-location-dot --fa-white"></i
+					></span>
+					<p class="footer__contact__location">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+
+					<span class="footer_icon"
+						><i class="fa-solid fa-phone-volume --fa-white"></i
+					></span>
+					<p class="footer__contact__tel">+1-543-123-4567</p>
+
+					<span class="footer_icon"
+						><i class="fa-solid fa-envelope --fa-white"></i
+					></span>
+					<p class="footer__contact__email">example@huddle.com</p>
+				</div>
+				<nav class="footer__nav">
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">What We Do</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+
+				<div class="footer__socials flex">
+					<!-- <div class="footer_icons grid"> -->
+
+					<span class="fa-stack small">
+						<i class="fa-regular fa-circle fa-stack-2x"></i>
+						<i class="fab fa-brands fa-facebook-f fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack small">
+						<i class="fa-regular fa-circle fa-stack-2x"></i>
+						<i class="fab fa-brands fa-twitter fa-stack-1x"></i>
+					</span>
+					<span class="fa-stack small">
+						<i class="fa-regular fa-circle fa-stack-2x"></i>
+						<i class="fab fa-brands fa-instagram fa-stack-1x"></i>
+					</span>
+
+					
+					<!-- </div> -->
+				</div>
+
+				<div class="footer__copyright">
+					&copy; Copyright 2018 Huddle. All rights reserved.
 				</div>
 			</section>
 		</div>
-		<!-- 
 
- 
-
-   
-
-  
-
-
-
-  
-
- 
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
+		<footer>
+			<p class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Travis <Mains-Marten></Mains-Marten></a>.
+			</p>
+		</footer>
+		<script
+			src="https://kit.fontawesome.com/cec2facf3f.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="//cdn.jsdelivr.net/npm/desvg@1.0.2/desvg.min.js"></script>
+		<script src="./app/js/script.js"></script>
 	</body>
 </html>

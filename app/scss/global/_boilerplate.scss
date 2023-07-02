@@ -27,6 +27,12 @@ img {
 	height: auto;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 /* | UTILITIES | */
 
 .offscreen {
@@ -42,5 +48,13 @@ img {
 
 .center {
 	text-align: center;
+}
+
+.--fa-white {
+	color: #fff;
+}
+
+.footer_icon {
+	flex-grow: 1;
 }
 
