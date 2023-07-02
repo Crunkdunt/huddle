@@ -14,7 +14,10 @@
 
     /*FONTS*/
     --FF-HEADING: 'Poppins', sans-serif; //weight 600
-    --FF-BODY-BUTTON: 'Open Sans', sans-serif; //weights 400 & 700
+    --FF-BODY-CTA: 'Open Sans', sans-serif; //weights 400 & 700
+
+    /*SHADOWS*/ //0.3125rem 0.3125rem 0.3125rem 0.125rem
+    --PRIMARY-SHADOW: 0.1rem 0.1rem 0.3rem 0.1rem rgba(0, 0, 0, 0.3);
 
 // Dark Mode
 //     @media (prefers-color-scheme: dark) {

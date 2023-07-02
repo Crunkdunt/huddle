@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>
+			Frontend Mentor | Huddle landing page with alternating feature blocks
+		</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+		<script
+			src="https://kit.fontawesome.com/cec2facf3f.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="grid">
+			<section class="grid header">
+				<div class="header">
+					<img src="./images/logo.svg" alt="Huddle Logo" class="header__logo" />
+
+					<a class="btn btn--white">Try It Free</a>
+				</div>
+				<div class="hero">
+					<h1 class="hero__heading">Build The Community Your Fans Will Love</h1>
+
+					<p class="hero__text">
+						Huddle re-imagines the way we build communities. You have a voice,
+						but so does your audience. Create connections with your users as you
+						engage in genuine discussion.
+					</p>
+
+					<button class="btn btn--pink">Get Started For Free</button>
+					<img
+						src="./images/illustration-mockups.svg"
+						alt="Mockups of layout and content"
+						class="hero__img"
+					/>
+				</div>
+			</section>
+
+			<main class="grid cards">
+				<figure class="cards__card">
+					<img
+						src="./images/illustration-grow-together.svg"
+						alt="Two people talking in front of presentation"
+						class="cards__img"
+					/>
+
+					<figcaption class="offscreen">
+						Illistration: Two people talking together in front of a
+						presentation.
+					</figcaption>
+
+					<h1 class="card__subhead">Grow Together</h1>
+
+					<p class="card__text">
+						Generate meaningful discussions with your audience and build a
+						strong, loyal community. Think of the insightful conversations you
+						miss out on with a feedback form.
+					</p>
+				</figure>
+
+				<figure class="cards__card">
+					<img
+						src="./images/illustration-flowing-conversation.svg"
+						alt="People sitting under a tree"
+						class="card__img"
+					/>
+
+					<figcaption class="offscreen">
+						Illustration: A group of four people sitting around a table under a
+						tree.
+					</figcaption>
+
+					<h2 class="card__subhead">Flowing Conversations</h2>
+
+					<p class="card__text">
+						You wouldn't paginate a conversation in real life, so why do it
+						online? Our threads Flowing Conversations You wouldn't paginate a
+						conversation in real life, so why do it online? Our threads have
+						just-in-time loading for a more natural flow.
+					</p>
+				</figure>
+
+				<figure class="cards__card">
+					<img
+						src="./images/illustration-your-users.svg"
+						alt="A group of people doing work"
+						class="card__img"
+					/>
+					<figcaption class="offscreen">
+						Illustration: Three people doing work standing in front of or beside
+						a presentation.
+					</figcaption>
+
+					<h2 class="card__subhead">Your Users</h2>
+					<p class="cards__text">
+						It takes no time at all to integrate Huddle with your app's
+						authentication solution. This means, once signed in to your app,
+						your users can start chatting immediately.
+					</p>
+				</figure>
+
+				<div class="card__cta">
+					<h2 class="card__subhead">Ready To Build Your Community?</h2>
+					<button class="btn--pink">Get Started For Free</button>
+				</div>
+			</main>
+			<footer class="grid">
+				<img src="./images/logo.svg" alt="Huddle Logo" class="footer__logo" />
+				<p class="footer__location">
+					<i class="fa-solid fa-location-dot"></i>Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua
+				</p>
+				<p class="footer__tel">
+					<i class="fa-solid fa-phone-volume"></i>+1-543-123-4567
+				</p>
+				<p class="footer__email">
+					<i class="fa-solid fa-envelope" style="color: #ffffff"></i
+					>example@huddle.com
+				</p>
+				<nav class="footer">About Us What We Do FAQ Career Blog Contact Us</nav>
+				<div class="footer__socials">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-twitter">
+						<i class="fa-brands fa-instagram"></i
+					></i>
+				</div>
+				<p class="footer__copy">
+					&copy; Copyright 2018 Huddle. All rights reserved.
+				</p>
+
+				<p class="attribution">
+					Challenge by
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+						>Frontend Mentor</a
+					>. Coded by <a href="#">The Shiz @ TDMM</a>.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
