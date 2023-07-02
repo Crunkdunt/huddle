@@ -164,7 +164,9 @@ button,
 			//pb 30
 			grid-area: card_heading;
 			padding-bottom: u.rem(30);
+			padding-top: u.rem(65);
 			font-size: u.rem(18);
+			margin: 0;
 
 			&--sm {
 				padding-bottom: u.rem(30);
