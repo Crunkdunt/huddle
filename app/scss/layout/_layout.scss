@@ -187,7 +187,7 @@ button,
 			position: relative;
 			top: 75px;
 			z-index: 2;
-			padding: u.rem(24) u.rem(14) 
+			padding: u.rem(24) u.rem(14) ;
 		}
 
 		&__cta {
@@ -204,7 +204,7 @@ button,
 
 //FOOTER SECTION
 .footer {
-	padding: u.rem(140) u.rem(16) u.rem(50) u.rem(16);
+	padding: u.rem(140) u.rem(16) u.rem(25) u.rem(16);
 	// padding-top: u.rem(140);
 	// padding-left: u.rem(16);
 	background-color: var(--FOOTER-BG);
@@ -225,7 +225,7 @@ button,
 	}
 
 	&__contact {
-		padding-bottom: u.rem(70);
+		padding-bottom: u.rem(35);
 		grid-area: contact;
 		grid-template-areas:
 			". location"
@@ -251,7 +251,11 @@ button,
 		grid-area: nav;
 
 		li {
-			padding-bottom: u.rem(30);
+			padding-bottom: u.rem(20);
+
+			&:last-child{
+				padding-bottom: u.rem(25);
+			}
 		}
 
 		a {
@@ -268,7 +272,7 @@ button,
 		grid-area: socials;
 		justify-content: center;
 		gap: u.rem(16);
-		padding-bottom: u.rem(30);
+		padding-bottom: u.rem(25);
 	}
 
 	&__copyright {
