@@ -5,6 +5,7 @@
 /* | GRID STYLES | */
 .grid {
 	display: grid;
+
 }
 
 /* | FLEX STYLES | */
@@ -57,6 +58,7 @@
 		"hero"
 		"cards"
 		"footer";
+	grid-template-columns: minmax(u.rem(300), 1fr);
 }
 
 //GENERIC ELEMENT STYLING
