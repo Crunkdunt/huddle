@@ -1,5 +1,5 @@
 # Front-end Style Guide
-43em (688px), 62em (992px), and 82em (1312px) breakpoints
+4
 ## Layout
 
 The designs were created to the following widths:
